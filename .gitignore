@@ -26,7 +26,7 @@ wp-config.php.old
 # The '!' negates a previous rule.
 # Replace 'my-custom-theme' and 'my-custom-plugin' with your actual folder names.
 !/wp-content/themes/hypermigratefull/
-!/wp-content/plugins/my-custom-plugin/
+#!/wp-content/plugins/my-custom-plugin/
 
 # Other common files to ignore
 .DS_Store
