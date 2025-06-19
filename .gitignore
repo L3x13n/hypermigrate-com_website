@@ -6,6 +6,7 @@
 /xmlrpc.php
 /license.txt
 /readme.html
+/installer.php
 
 # Sensitive configuration file - MANAGE THIS SEPARATELY ON THE SERVER.
 wp-config.php
@@ -28,6 +29,7 @@ wp-config.php.old
 !/wp-content/themes/hypermigratefull/
 #!/wp-content/plugins/my-custom-plugin/
 !/index.php
+!/
 # Other common files to ignore
 .DS_Store
 Thumbs.db
