@@ -20,14 +20,14 @@ wp-config.php.old
 /wp-content/advanced-cache.php
 /wp-content/wp-cache-config.php
 /wp-content/plugins/
-/wp-content/themes/
+#/wp-content/themes/
 
 # But we DO want to track our custom theme and plugin.
 # The '!' negates a previous rule.
 # Replace 'my-custom-theme' and 'my-custom-plugin' with your actual folder names.
 !/wp-content/themes/hypermigratefull/
 #!/wp-content/plugins/my-custom-plugin/
-
+!/index.php
 # Other common files to ignore
 .DS_Store
 Thumbs.db
