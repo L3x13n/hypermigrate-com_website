@@ -1,0 +1,35 @@
+# WordPress core files - we don't need to track them as they can be reinstalled.
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Sensitive configuration file - MANAGE THIS SEPARATELY ON THE SERVER.
+wp-config.php
+wp-config.php.old
+
+# User-generated content, themes, and plugins that you don't manage.
+# We will make exceptions for our own custom theme/plugin below.
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/plugins/
+/wp-content/themes/
+
+# But we DO want to track our custom theme and plugin.
+# The '!' negates a previous rule.
+# Replace 'my-custom-theme' and 'my-custom-plugin' with your actual folder names.
+!/wp-content/themes/hypermigratefull/
+!/wp-content/plugins/my-custom-plugin/
+
+# Other common files to ignore
+.DS_Store
+Thumbs.db
+/node_modules/
+/vendor/

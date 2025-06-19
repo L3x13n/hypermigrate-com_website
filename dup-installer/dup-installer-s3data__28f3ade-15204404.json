@@ -1,0 +1,53 @@
+{
+    "report": {
+        "pass": 0,
+        "chunk": 1,
+        "chunkPos": {
+            "l0": "final_report",
+            "l1": null,
+            "l2": null
+        },
+        "progress_perc": 100,
+        "scan_tables": 14,
+        "scan_rows": 933,
+        "scan_cells": 9155,
+        "updt_tables": 3,
+        "updt_rows": 290,
+        "updt_cells": 522,
+        "errsql": [],
+        "errser": [],
+        "errkey": [],
+        "errsql_sum": 0,
+        "errser_sum": 0,
+        "errkey_sum": 0,
+        "profile_start": 1750280561.106871,
+        "profile_end": 1750280562.340399,
+        "time": "1.2335 sec.",
+        "err_all": 0,
+        "warn_all": 0,
+        "warnlist": []
+    },
+    "cTableParams": null,
+    "replaceData": [
+        {
+            "id": 0,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "path",
+            "search": "\/home\/hypermigrate.com\/public_html",
+            "replace": "C:\/laragon\/www\/hypermigrate.com"
+        },
+        {
+            "id": 1,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "https:\/\/hypermigrate.com",
+            "replace": "https:\/\/hypermigrate.com.test"
+        }
+    ]
+}
